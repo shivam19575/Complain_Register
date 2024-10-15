@@ -1,0 +1,100 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(218,212,219);
+  background: linear-gradient(90deg, rgba(218,212,219,1) 0%, rgba(166,206,233,1) 0%, rgba(215,220,223,1) 28%, rgba(238,231,238,1) 100%);
+}
+
+/* this is the section of the register page  */
+
+.registerPageContainer{
+  width: 90%;
+  min-height: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+  /* background-color: aqua; */
+}
+.leftPart{
+  width: 330px;
+  min-height: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+}
+.rightPart{
+  min-width: 300px;
+ width: 60%;
+ /* width: auto; */
+ display: flex;
+ flex-direction: column;
+ min-height: 300px;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #ffff;
+}
+.formContainer{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  /* background-color: blueviolet; */
+}
+ .formContainer .inputField{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  /* background-color: black; */
+  /* outline: none; */
+  /* color: #fff; */
+  border: 1px solid silver;
+}
+input:focus {
+  outline-color: rgb(3, 3, 114);
+}
+.inputField{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  /* background-color: black; */
+  /* outline: none; */
+  /* color: #fff; */
+  border: 1px solid silver;
+}
+.formLabels{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.registerButton{
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
